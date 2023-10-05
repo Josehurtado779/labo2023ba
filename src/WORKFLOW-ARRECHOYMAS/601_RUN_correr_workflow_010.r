@@ -10,11 +10,11 @@ options(error = function() {
 # corrida de cada paso del workflow
 
 # primeros pasos, relativamente rapidos
-source("~/labo2023ba/src/workflow-inicial/z611_CA_reparar_dataset.r")
-source("~/labo2023ba/src/workflow-inicial/z621_DR_corregir_drifting.r")
-source("~/labo2023ba/src/workflow-inicial/z631_FE_historia.r")
-source("~/labo2023ba/src/workflow-inicial/z641_TS_training_strategy.r")
+#source("~/labo2023ba/src/WORKFLOW_ARRECHOYMAS/611_CA_reparar_dataset_009.r")
+#source("~/labo2023ba/src/WORKFLOW_ARRECHOYMAS/z621_DR_corregir_drifting_009.r")
+#source("~/labo2023ba/src/WORKFLOW_ARRECHOYMAS/z631_FE_historia_009.r")
+source("~/labo2023ba/src/WORKFLOW-ARRECHOYMAS/641_TS_training_strategy_010.r")
 
 # ultimos pasos, muy lentos
-source("~/labo2023ba/src/workflow-inicial/z651_HT_lightgbm.r")
-source("~/labo2023ba/src/workflow-inicial/z661_ZZ_final.r")
+source("~/labo2023ba/src/WORKFLOW-ARRECHOYMAS/651_HT_lightgbm_010.r")
+source("~/labo2023ba/src/WORKFLOW5ARRECHOYMAS/661_ZZ_final_010.r")
